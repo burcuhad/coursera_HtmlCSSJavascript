@@ -52,6 +52,8 @@ body{
     clear: both;    
 }
 
+
+/* HOME PAGE */
 h2{
     text-align: center;
 }
@@ -61,8 +63,7 @@ p{
     overflow: auto;
     margin-top: 40px;
     position: absolute;
-    
-    
+
 }
 
 .divbody{
@@ -70,7 +71,6 @@ p{
     margin-top: 20px;
     background-color: gray;
 }
-
 
 
 .Sorten{ 
@@ -82,6 +82,35 @@ p{
     height:35px;
     margin-top: 10px;
 }
+
+#map-tile2, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+  }
+  #map-tile:hover, #map-tile2:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  
+  #map-tile span, #map-tile2 span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+
+  /* ENDE HOMEPAGE */
+
+  
 
 
 
