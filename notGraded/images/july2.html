@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<!-- saved from url=(0100)https://www.vectorstock.com/royalty-free-vector/july-18-flat-daily-calendar-icon-date-vector-8063039 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf5f0b2b76e176d">
+	<meta name="csrf-value" content="5e6333bc8663cda9ac2b671a78b39336">
+<script src="./july2_files/nr-1169.min.js.download"></script><script async="" src="./july2_files/analytics.js.download"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1169.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<link rel="dns-prefetch" href="https://cdn.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn1.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn2.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn3.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn4.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn5.vectorstock.com/">
+
+	<title>July 18 flat daily calendar icon Date Royalty Free Vector</title>
+	<meta name="description" content="July 18. Vector flat daily calendar icon. Date and time, day, month. Holiday. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions..">
+	
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="og:type" content="product">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/july-18-flat-daily-calendar-icon-date-vector-8063039">
+	<meta property="og:title" content="July 18 flat daily calendar icon Date vector image on VectorStock">
+	<meta property="og:description" content="July 18. Vector flat daily calendar icon. Date and time, day, month. Holiday. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+	<meta property="og:image" content="https://cdn5.vectorstock.com/i/1000x1000/30/39/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg">
+	<meta property="og:image:url" content="https://cdn5.vectorstock.com/i/1000x1000/30/39/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg">
+	<meta property="og:image:secure_url" content="https://cdn5.vectorstock.com/i/1000x1000/30/39/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	<meta property="og:price:amount" content="0.69">
+	<meta property="og:price:currency" content="USD">
+	<meta property="product:price:amount" content="0.69">
+	<meta property="product:price:currency" content="USD">
+
+	<meta property="fb:app_id" content="241100862642313">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/july-18-flat-daily-calendar-icon-date-vector-8063039">
+	<meta name="twitter:title" content="July 18 flat daily calendar icon Date vector image">
+	<meta name="twitter:description" content="July 18. Vector flat daily calendar icon. Date and time, day, month. Holiday">
+	<meta name="twitter:image" content="https://cdn5.vectorstock.com/i/thumb-large/30/39/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+	<meta name="twitter:site" content="@VectorStock">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/july-18-flat-daily-calendar-icon-date-vector-8063039">
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="./july2_files/common1592352091.min.css">
+	<link rel="stylesheet" href="./july2_files/vector1592352091.min.css">
+	<script src="./july2_files/common1591744244.min.js.download"></script><script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    __insertDappDetected()
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
+      },
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()</script>
+	<script src="./july2_files/vector1591744244.min.js.download"></script>
+<!-- Analytics --><script type="text/javascript">// Load GA script
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+// Setup
+ga('create', 'UA-2180430-2', 'none');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search…" maxlength="50" autofocus="">
+								<button type="button" data-action="clear">×</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					<div class="suggestions"><div></div></div></fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="https://www.vectorstock.com/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+		<nav id="searchrelated"></nav>	
+
+		<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+							<ul>
+								<li><a href="https://www.vectorstock.com/signup">Sign Up</a></li>
+								<li data-action="login"><a href="https://www.vectorstock.com/?login=1">Login…</a></li>
+								<li><a href="https://www.vectorstock.com/pricing">Pricing</a></li>
+							</ul>
+						</li>
+				</ul>
+				<form method="get" action="https://www.vectorstock.com/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="https://www.vectorstock.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Log In</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We're the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you're a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="https://www.vectorstock.com/signup">Sign up now, it’s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="https://www.vectorstock.com/auth/login" method="post">
+
+
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2" maxlength="72">
+						</div>
+					</fieldset>
+					<fieldset>
+						<div class="checkbox checked">
+							<label class="selected" for="vs_remember">
+								<span class="title">Stay Logged In</span>
+								<span class="icon"></span>
+								<input type="checkbox" id="vs_remember" name="vs_remember" value="yes" tabindex="3" checked="">
+							</label>
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Log In</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="https://www.vectorstock.com/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="https://www.vectorstock.com/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+				
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset" style="min-height: 720px; max-width: 500px;">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1">
+					</li>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors/july-vectors">
+							<span itemprop="name">July Vectors</span>
+						</a>
+						<meta itemprop="position" content="2">
+					</li>
+				</ol>
+
+				<h1>
+					July 18 flat daily calendar icon Date vector&nbsp;image														</h1>
+
+				<figure style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn5.vectorstock.com/i/1000x1000/30/39/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg">
+						<noscript><img src="https://cdn5.vectorstock.com/i/1000x1000/30/39/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg" title="July 18 flat daily calendar icon Date vector image" alt="July 18 flat daily calendar icon Date"></noscript>
+					<img src="./july2_files/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg"></div>
+					<div class="lowres">
+						<img src="./july2_files/july-18-flat-daily-calendar-icon-date-vector-8063039(1).jpg" title="July 18 flat daily calendar icon Date vector image" alt="July 18 flat daily calendar icon Date">
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payments="3" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="8063039">
+					<input type="hidden" id="vector_title" value="July 18 flat daily calendar icon Date">
+					<input type="hidden" id="vector_description" value="July 18. Vector flat daily calendar icon. Date and time, day, month. Holiday. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/july-18-flat-daily-calendar-icon-date-vector-8063039">
+					<input type="hidden" id="vector_media" value="https://cdn5.vectorstock.com/i/1000x1000/30/39/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="Tarchyshnik">
+					<input type="hidden" id="account_user" value="0">
+
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="https://www.vectorstock.com/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset>
+									<label for="f_license_standard" class="checked">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">For Print, Advertising, Design</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">For Resale &amp; Reproduction</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Graphic Design</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Web Design</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Social Media</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Multi-user</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Resale Items</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Unlimited Runs</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+																<fieldset>
+									<label for="f_payment_standard_single-image" class="checked">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image" checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+																<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69c</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+																<fieldset>
+									<label for="f_payment_expanded_single-image" class="checked">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="29.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>29.99</var></span>
+									</label>
+								</fieldset>
+																<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>29.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">New Option!</span><a href="https://www.vectorstock.com/faq/members/what-is-hire-a-designer">What is this?</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization" class="checked_">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="84" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="value"><small>$</small><var>84.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We'll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+					<div class="download_options">
+						<div class="wrap">
+							<div class="optgroup" data-action="download">
+								<span class="header">Download File/s:</span>
+								<div class="dropdown" data-value="zip">
+									<div class="display">
+										<span class="label"><strong>ZIP Archive</strong></span>
+										<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M10.6,12.8 15,17.2 19.4,12.8"></path></svg></span>
+									</div>
+									<div class="select">
+										<select>
+											<optgroup label="All Files">
+												<option value="zip" data-label="ZIP Archive" data-details="" data-url="" selected="selected">ZIP Archive</option>											</optgroup>
+											<optgroup label="Image">
+												<option value="jpg" data-label="High-res JPG" data-details="300 DPI+" data-url="">High-res JPG (300 DPI+)</option>												<option value="png" data-label="High-res PNG" data-details="300 DPI+" data-url="">High-res PNG (300 DPI+)</option>											</optgroup>
+											<optgroup label="Vector">
+												<option value="ai" data-label="Adobe Illustrator" data-details="v10+" data-url="">Adobe Illustrator (v10+)</option>												<option value="eps" data-label="Vector EPS" data-details="v8+" data-url="">Vector EPS (v8+)</option>												<option value="pdf" data-label="Vector PDF" data-details="" data-url="">Vector PDF</option>											</optgroup>
+										</select>
+									</div>
+								</div>
+								<button type="button" data-action="download_file">
+									<span class="label">Download ZIP</span>
+									<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M23.6,21.2 23.6,9.5 16.4,9.5 16.4,21.3 10.8,21.3 11,21.5 20,30.5 29.2,21.3"></path></svg></span>
+								</button>
+							</div>
+							<div class="optgroup" data-action="customization" data-status="uninitiated">
+								<span class="header">Image Customization:</span>
+								<ul class="actions">
+									<li>
+										<button type="button" data-job-url="/customizations">
+											<span class="label">View your job...</span>
+											<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M12.8,19.4 17.2,15 12.8,10.6"></path></svg></span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn5.vectorstock.com/i/1000x1000/30/39/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg">
+						<noscript><img src="https://cdn5.vectorstock.com/i/1000x1000/30/39/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg" title="July 18 flat daily calendar icon Date vector image" alt="July 18 flat daily calendar icon Date"></noscript>
+					<img src="./july2_files/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg"></div>
+					<div class="lowres">
+						<img src="./july2_files/july-18-flat-daily-calendar-icon-date-vector-8063039(1).jpg" title="July 18 flat daily calendar icon Date vector image" alt="July 18 flat daily calendar icon Date">
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<h4>Share on</h4>
+							<ul>
+								<li class="pinterest"><button type="button" data-action="pinterest"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"></path></svg></span><span class="label">Pinterest</span></span></button></li>
+								<li class="facebook"><button type="button" data-action="facebook"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"></path></svg></span><span class="label">Facebook</span></span></button></li>
+								<li class="twitter"><button type="button" data-action="twitter"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"></path></svg></span><span class="label">Twitter</span></span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>8063039</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Tarchyshnik" rel="nofollow">Tarchyshnik</a><button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button></dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">♥</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/Product" itemscope="">
+					<meta itemprop="sku" content="8063039">
+					<meta itemprop="productID" content="8063039">
+					<meta itemprop="name" content="July 18 flat daily calendar icon Date">
+					<meta itemprop="description" content="July 18. Vector flat daily calendar icon. Date and time, day, month. Holiday. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<meta itemprop="releaseDate" content="2016-03-23">
+					<link itemprop="image" href="./july2_files/july-18-flat-daily-calendar-icon-date-vector-8063039.jpg">
+					
+					<div itemprop="brand" itemtype="http://schema.org/Thing" itemscope="">
+						<meta itemprop="name" content="VectorStock">
+					</div>
+					<div itemprop="offers" itemtype="http://schema.org/Offer" itemscope="">
+						<link itemprop="url" href="https://www.vectorstock.com/royalty-free-vector/july-18-flat-daily-calendar-icon-date-vector-8063039">
+						<meta itemprop="availability" content="https://schema.org/InStock">
+						<div itemprop="price">0.69</div>
+						<div itemprop="priceCurrency">USD</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/12/51/july-4-calendar-flat-daily-icon-vector-10961251.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/july-4-calendar-flat-daily-icon-vector-10961251" title="July 4 Calendar Flat Daily Icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/12/51/july-4-calendar-flat-daily-icon-vector-10961251.jpg" title="July 4 Calendar Flat Daily Icon" alt="July 4 Calendar Flat Daily Icon vector image"></noscript><img src="./july2_files/july-4-calendar-flat-daily-icon-vector-10961251.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/96/77/calendar-for-2018-year-full-month-of-july-icon-vector-16489677.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-for-2018-year-full-month-of-july-icon-vector-16489677" title="calendar for 2018 year full month of july icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/96/77/calendar-for-2018-year-full-month-of-july-icon-vector-16489677.jpg" title="calendar for 2018 year full month of july icon" alt="calendar for 2018 year full month of july icon vector image"></noscript><img src="./july2_files/calendar-for-2018-year-full-month-of-july-icon-vector-16489677.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/65/22/calendar-2017-print-template-design-vector-13536522.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-2017-print-template-design-vector-13536522" title="calendar 2017 print template design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/65/22/calendar-2017-print-template-design-vector-13536522.jpg" title="calendar 2017 print template design" alt="calendar 2017 print template design vector image"></noscript><img src="./july2_files/calendar-2017-print-template-design-vector-13536522.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/76/53/july-18-day-calendar-school-board-date-vector-1737653.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/july-18-day-calendar-school-board-date-vector-1737653" title="July 18 day calendar school board date vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/76/53/july-18-day-calendar-school-board-date-vector-1737653.jpg" title="July 18 day calendar school board date" alt="July 18 day calendar school board date vector image"></noscript><img src="./july2_files/july-18-day-calendar-school-board-date-vector-1737653.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/85/23/18-july-calendar-with-ribbon-vector-14978523.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/18-july-calendar-with-ribbon-vector-14978523" title="18 july calendar with ribbon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/85/23/18-july-calendar-with-ribbon-vector-14978523.jpg" title="18 july calendar with ribbon" alt="18 july calendar with ribbon vector image"></noscript><img src="./july2_files/18-july-calendar-with-ribbon-vector-14978523.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/60/79/mobile-app-calendar-2020-week-start-sunday-vector-29966079.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/mobile-app-calendar-2020-week-start-sunday-vector-29966079" title="mobile app calendar 2020 week start sunday vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/60/79/mobile-app-calendar-2020-week-start-sunday-vector-29966079.jpg" title="mobile app calendar 2020 week start sunday" alt="mobile app calendar 2020 week start sunday vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/90/73/cute-squirrel-calendar-cartoon-vector-20209073.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cute-squirrel-calendar-cartoon-vector-20209073" title="cute squirrel calendar cartoon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/90/73/cute-squirrel-calendar-cartoon-vector-20209073.jpg" title="cute squirrel calendar cartoon" alt="cute squirrel calendar cartoon vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/72/98/date-appointment-icon-vector-29427298.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/date-appointment-icon-vector-29427298" title="date appointment icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/72/98/date-appointment-icon-vector-29427298.jpg" title="date appointment icon" alt="date appointment icon vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/42/06/julytor-flat-calendar-icons-days-of-year-set-20-vector-1834206.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/julytor-flat-calendar-icons-days-of-year-set-20-vector-1834206" title="Julytor flat calendar icons Days Of Year Set 20 vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/42/06/julytor-flat-calendar-icons-days-of-year-set-20-vector-1834206.jpg" title="Julytor flat calendar icons Days Of Year Set 20" alt="Julytor flat calendar icons Days Of Year Set 20 vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/12/14/calendar-dates-and-days-icon-vector-22931214.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-dates-and-days-icon-vector-22931214" title="calendar dates and days icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/12/14/calendar-dates-and-days-icon-vector-22931214.jpg" title="calendar dates and days icon" alt="calendar dates and days icon vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/69/16/calendar-for-2016-year-july-design-clean-template-vector-7686916.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-for-2016-year-july-design-clean-template-vector-7686916" title="Calendar for 2016 Year July Design Clean Template vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/69/16/calendar-for-2016-year-july-design-clean-template-vector-7686916.jpg" title="Calendar for 2016 Year July Design Clean Template" alt="Calendar for 2016 Year July Design Clean Template vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/14/99/bastille-day-vector-1441499.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/bastille-day-vector-1441499" title="Bastille Day vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/14/99/bastille-day-vector-1441499.jpg" title="Bastille Day" alt="Bastille Day vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/71/38/set-of-simple-black-calendar-icons-on-july-vector-18187138.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-of-simple-black-calendar-icons-on-july-vector-18187138" title="set of simple black calendar icons on july vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/71/38/set-of-simple-black-calendar-icons-on-july-vector-18187138.jpg" title="set of simple black calendar icons on july" alt="set of simple black calendar icons on july vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/89/34/calendar-vector-5528934.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-vector-5528934" title="Calendar vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/89/34/calendar-vector-5528934.jpg" title="Calendar" alt="Calendar vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/65/94/simple-flat-calendar-with-date-25-vector-11306594.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/simple-flat-calendar-with-date-25-vector-11306594" title="Simple flat calendar with date 25 vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/65/94/simple-flat-calendar-with-date-25-vector-11306594.jpg" title="Simple flat calendar with date 25" alt="Simple flat calendar with date 25 vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/99/76/application-color-icon-use-good-for-your-web-vector-23309976.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/application-color-icon-use-good-for-your-web-vector-23309976" title="application color icon use good for your web vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/99/76/application-color-icon-use-good-for-your-web-vector-23309976.jpg" title="application color icon use good for your web" alt="application color icon use good for your web vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/50/48/calendar-for-2019-starts-monday-calendar-vector-21645048.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-for-2019-starts-monday-calendar-vector-21645048" title="calendar for 2019 starts monday calendar vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/50/48/calendar-for-2019-starts-monday-calendar-vector-21645048.jpg" title="calendar for 2019 starts monday calendar" alt="calendar for 2019 starts monday calendar vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/40/26/calendar-icon-with-month-time-symbol-flat-agenda-vector-28504026.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-icon-with-month-time-symbol-flat-agenda-vector-28504026" title="calendar icon with month time symbol flat agenda vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/40/26/calendar-icon-with-month-time-symbol-flat-agenda-vector-28504026.jpg" title="calendar icon with month time symbol flat agenda" alt="calendar icon with month time symbol flat agenda vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/05/29/calendar-2015-july-vector-3270529.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-2015-july-vector-3270529" title="calendar 2015 - july vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/05/29/calendar-2015-july-vector-3270529.jpg" title="calendar 2015 - july" alt="calendar 2015 - july vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/35/59/4-july-calendar-independence-day-usa-flat-icon-vector-7613559.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/4-july-calendar-independence-day-usa-flat-icon-vector-7613559" title="4 July Calendar Independence Day USA flat icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/35/59/4-july-calendar-independence-day-usa-flat-icon-vector-7613559.jpg" title="4 July Calendar Independence Day USA flat icon" alt="4 July Calendar Independence Day USA flat icon vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="24170416" data-title="calendar web icons day date and month agenda" data-src="https://cdn2.vectorstock.com/i/thumbs/04/16/calendar-web-icons-day-date-and-month-agenda-vector-24170416.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-web-icons-day-date-and-month-agenda-vector-24170416" title="calendar web icons day date and month agenda vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/04/16/calendar-web-icons-day-date-and-month-agenda-vector-24170416.jpg" title="calendar web icons day date and month agenda" alt="calendar web icons day date and month agenda vector image"></noscript></a></li>
+						<li data-id="7719451" data-title="Hangers with days of the week" data-src="https://cdn2.vectorstock.com/i/thumbs/94/51/hangers-with-days-of-the-week-vector-7719451.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/hangers-with-days-of-the-week-vector-7719451" title="Hangers with days of the week vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/94/51/hangers-with-days-of-the-week-vector-7719451.jpg" title="Hangers with days of the week" alt="Hangers with days of the week vector image"></noscript></a></li>
+						<li data-id="364160" data-title="calendar template" data-src="https://cdn1.vectorstock.com/i/thumbs/41/60/calendar-template-vector-364160.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-template-vector-364160" title="calendar template vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/41/60/calendar-template-vector-364160.jpg" title="calendar template" alt="calendar template vector image"></noscript></a></li>
+						<li data-id="3430517" data-title="Calendar page for July 2015" data-src="https://cdn3.vectorstock.com/i/thumbs/05/17/calendar-page-for-july-2015-vector-3430517.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-page-for-july-2015-vector-3430517" title="Calendar page for July 2015 vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/05/17/calendar-page-for-july-2015-vector-3430517.jpg" title="Calendar page for July 2015" alt="Calendar page for July 2015 vector image"></noscript></a></li>
+						<li data-id="1450518" data-title="July 2014 Calendars Icons" data-src="https://cdn4.vectorstock.com/i/thumbs/05/18/july-2014-calendars-icons-vector-1450518.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-2014-calendars-icons-vector-1450518" title="July 2014 Calendars Icons vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/05/18/july-2014-calendars-icons-vector-1450518.jpg" title="July 2014 Calendars Icons" alt="July 2014 Calendars Icons vector image"></noscript></a></li>
+						<li data-id="27133885" data-title="colorful round calendar 2020 design print" data-src="https://cdn1.vectorstock.com/i/thumbs/38/85/colorful-round-calendar-2020-design-print-vector-27133885.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/colorful-round-calendar-2020-design-print-vector-27133885" title="colorful round calendar 2020 design print vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/38/85/colorful-round-calendar-2020-design-print-vector-27133885.jpg" title="colorful round calendar 2020 design print" alt="colorful round calendar 2020 design print vector image"></noscript></a></li>
+						<li data-id="18930731" data-title="july 2018 calendar popular premium for business" data-src="https://cdn2.vectorstock.com/i/thumbs/07/31/july-2018-calendar-popular-premium-for-business-vector-18930731.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-2018-calendar-popular-premium-for-business-vector-18930731" title="july 2018 calendar popular premium for business vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/07/31/july-2018-calendar-popular-premium-for-business-vector-18930731.jpg" title="july 2018 calendar popular premium for business" alt="july 2018 calendar popular premium for business vector image"></noscript></a></li>
+						<li data-id="26675986" data-title="english calendar for 2020 years" data-src="https://cdn2.vectorstock.com/i/thumbs/59/86/english-calendar-for-2020-years-vector-26675986.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/english-calendar-for-2020-years-vector-26675986" title="english calendar for 2020 years vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/59/86/english-calendar-for-2020-years-vector-26675986.jpg" title="english calendar for 2020 years" alt="english calendar for 2020 years vector image"></noscript></a></li>
+						<li data-id="6218807" data-title="European calendar grid for 2016 year with abstract" data-src="https://cdn3.vectorstock.com/i/thumbs/88/07/european-calendar-grid-for-2016-year-with-abstract-vector-6218807.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/european-calendar-grid-for-2016-year-with-abstract-vector-6218807" title="European calendar grid for 2016 year with abstract vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/88/07/european-calendar-grid-for-2016-year-with-abstract-vector-6218807.jpg" title="European calendar grid for 2016 year with abstract" alt="European calendar grid for 2016 year with abstract vector image"></noscript></a></li>
+						<li data-id="13799513" data-title="set of simple date icons" data-src="https://cdn4.vectorstock.com/i/thumbs/95/13/set-of-simple-date-icons-vector-13799513.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-of-simple-date-icons-vector-13799513" title="set of simple date icons vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/95/13/set-of-simple-date-icons-vector-13799513.jpg" title="set of simple date icons" alt="set of simple date icons vector image"></noscript></a></li>
+						<li data-id="1648348" data-title="Month banners" data-src="https://cdn4.vectorstock.com/i/thumbs/83/48/month-banners-vector-1648348.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/month-banners-vector-1648348" title="Month banners vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/83/48/month-banners-vector-1648348.jpg" title="Month banners" alt="Month banners vector image"></noscript></a></li>
+						<li data-id="8725133" data-title="Calendar Flat Icon" data-src="https://cdn4.vectorstock.com/i/thumbs/51/33/calendar-flat-icon-vector-8725133.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-flat-icon-vector-8725133" title="Calendar Flat Icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/51/33/calendar-flat-icon-vector-8725133.jpg" title="Calendar Flat Icon" alt="Calendar Flat Icon vector image"></noscript></a></li>
+						<li data-id="9524903" data-title="flat calendar icon" data-src="https://cdn4.vectorstock.com/i/thumbs/49/03/flat-calendar-icon-vector-9524903.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/flat-calendar-icon-vector-9524903" title="flat calendar icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/49/03/flat-calendar-icon-vector-9524903.jpg" title="flat calendar icon" alt="flat calendar icon vector image"></noscript></a></li>
+						<li data-id="12881737" data-title="calendar icon set" data-src="https://cdn3.vectorstock.com/i/thumbs/17/37/calendar-icon-set-vector-12881737.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-icon-set-vector-12881737" title="calendar icon set vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/17/37/calendar-icon-set-vector-12881737.jpg" title="calendar icon set" alt="calendar icon set vector image"></noscript></a></li>
+						<li data-id="26928979" data-title="meeting deadlines icon" data-src="https://cdn5.vectorstock.com/i/thumbs/89/79/meeting-deadlines-icon-vector-26928979.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/meeting-deadlines-icon-vector-26928979" title="meeting deadlines icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/89/79/meeting-deadlines-icon-vector-26928979.jpg" title="meeting deadlines icon" alt="meeting deadlines icon vector image"></noscript></a></li>
+						<li data-id="16717033" data-title="calendar icon line isolated outline black" data-src="https://cdn4.vectorstock.com/i/thumbs/70/33/calendar-icon-line-isolated-outline-black-vector-16717033.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-icon-line-isolated-outline-black-vector-16717033" title="calendar icon line isolated outline black vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/70/33/calendar-icon-line-isolated-outline-black-vector-16717033.jpg" title="calendar icon line isolated outline black" alt="calendar icon line isolated outline black vector image"></noscript></a></li>
+						<li data-id="23306128" data-title="management icon time save planning completed work" data-src="https://cdn4.vectorstock.com/i/thumbs/61/28/management-icon-time-save-planning-completed-work-vector-23306128.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/management-icon-time-save-planning-completed-work-vector-23306128" title="management icon time save planning completed work vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/61/28/management-icon-time-save-planning-completed-work-vector-23306128.jpg" title="management icon time save planning completed work" alt="management icon time save planning completed work vector image"></noscript></a></li>
+						<li data-id="17125924" data-title="calendar icon in flat style with shadow" data-src="https://cdn5.vectorstock.com/i/thumbs/59/24/calendar-icon-in-flat-style-with-shadow-vector-17125924.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-icon-in-flat-style-with-shadow-vector-17125924" title="calendar icon in flat style with shadow vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/59/24/calendar-icon-in-flat-style-with-shadow-vector-17125924.jpg" title="calendar icon in flat style with shadow" alt="calendar icon in flat style with shadow vector image"></noscript></a></li>
+						<li data-id="22967586" data-title="number and calendar icon outline icon with long" data-src="https://cdn2.vectorstock.com/i/thumbs/75/86/number-and-calendar-icon-outline-icon-with-long-vector-22967586.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/number-and-calendar-icon-outline-icon-with-long-vector-22967586" title="number and calendar icon outline icon with long vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/75/86/number-and-calendar-icon-outline-icon-with-long-vector-22967586.jpg" title="number and calendar icon outline icon with long" alt="number and calendar icon outline icon with long vector image"></noscript></a></li>
+						<li data-id="23398257" data-title="calendar date organizer office reminder events" data-src="https://cdn3.vectorstock.com/i/thumbs/82/57/calendar-date-organizer-office-reminder-events-vector-23398257.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-date-organizer-office-reminder-events-vector-23398257" title="calendar date organizer office reminder events vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/82/57/calendar-date-organizer-office-reminder-events-vector-23398257.jpg" title="calendar date organizer office reminder events" alt="calendar date organizer office reminder events vector image"></noscript></a></li>
+						<li data-id="27100916" data-title="fourth july independence day united states of" data-src="https://cdn2.vectorstock.com/i/thumbs/09/16/fourth-july-independence-day-united-states-of-vector-27100916.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/fourth-july-independence-day-united-states-of-vector-27100916" title="fourth july independence day united states of vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/09/16/fourth-july-independence-day-united-states-of-vector-27100916.jpg" title="fourth july independence day united states of" alt="fourth july independence day united states of vector image"></noscript></a></li>
+						<li data-id="10681479" data-title="Leaf calendar 2017 with the month of July days" data-src="https://cdn5.vectorstock.com/i/thumbs/14/79/leaf-calendar-2017-with-the-month-of-july-days-vector-10681479.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/leaf-calendar-2017-with-the-month-of-july-days-vector-10681479" title="Leaf calendar 2017 with the month of July days vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/14/79/leaf-calendar-2017-with-the-month-of-july-days-vector-10681479.jpg" title="Leaf calendar 2017 with the month of July days" alt="Leaf calendar 2017 with the month of July days vector image"></noscript></a></li>
+						<li data-id="27278743" data-title="calendar and clock icon schedule appointment" data-src="https://cdn4.vectorstock.com/i/thumbs/87/43/calendar-and-clock-icon-schedule-appointment-vector-27278743.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-and-clock-icon-schedule-appointment-vector-27278743" title="calendar and clock icon schedule appointment vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/87/43/calendar-and-clock-icon-schedule-appointment-vector-27278743.jpg" title="calendar and clock icon schedule appointment" alt="calendar and clock icon schedule appointment vector image"></noscript></a></li>
+						<li data-id="25808533" data-title="calendar icon flat line design" data-src="https://cdn4.vectorstock.com/i/thumbs/85/33/calendar-icon-flat-line-design-vector-25808533.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-icon-flat-line-design-vector-25808533" title="calendar icon flat line design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/85/33/calendar-icon-flat-line-design-vector-25808533.jpg" title="calendar icon flat line design" alt="calendar icon flat line design vector image"></noscript></a></li>
+						<li data-id="20802793" data-title="hand with pen marks date in calendar deadline and" data-src="https://cdn4.vectorstock.com/i/thumbs/27/93/hand-with-pen-marks-date-in-calendar-deadline-and-vector-20802793.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/hand-with-pen-marks-date-in-calendar-deadline-and-vector-20802793" title="hand with pen marks date in calendar deadline and vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/27/93/hand-with-pen-marks-date-in-calendar-deadline-and-vector-20802793.jpg" title="hand with pen marks date in calendar deadline and" alt="hand with pen marks date in calendar deadline and vector image"></noscript></a></li>
+						<li data-id="22762674" data-title="line calendar icon" data-src="https://cdn5.vectorstock.com/i/thumbs/26/74/line-calendar-icon-vector-22762674.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/line-calendar-icon-vector-22762674" title="line calendar icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/26/74/line-calendar-icon-vector-22762674.jpg" title="line calendar icon" alt="line calendar icon vector image"></noscript></a></li>
+						<li data-id="3100612" data-title="Calendar Day icons set with long shadow" data-src="https://cdn3.vectorstock.com/i/thumbs/06/12/calendar-day-icons-set-with-long-shadow-vector-3100612.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-day-icons-set-with-long-shadow-vector-3100612" title="Calendar Day icons set with long shadow vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/06/12/calendar-day-icons-set-with-long-shadow-vector-3100612.jpg" title="Calendar Day icons set with long shadow" alt="Calendar Day icons set with long shadow vector image"></noscript></a></li>
+						<li data-id="26317154" data-title="2020 year calendar template editable layout" data-src="https://cdn5.vectorstock.com/i/thumbs/71/54/2020-year-calendar-template-editable-layout-vector-26317154.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/2020-year-calendar-template-editable-layout-vector-26317154" title="2020 year calendar template editable layout vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/71/54/2020-year-calendar-template-editable-layout-vector-26317154.jpg" title="2020 year calendar template editable layout" alt="2020 year calendar template editable layout vector image"></noscript></a></li>
+						<li data-id="25716139" data-title="calendar flat line black icon eps10" data-src="https://cdn5.vectorstock.com/i/thumbs/61/39/calendar-flat-line-black-icon-eps10-vector-25716139.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/calendar-flat-line-black-icon-eps10-vector-25716139" title="calendar flat line black icon eps10 vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/61/39/calendar-flat-line-black-icon-eps10-vector-25716139.jpg" title="calendar flat line black icon eps10" alt="calendar flat line black icon eps10 vector image"></noscript></a></li>
+						<li data-id="6747232" data-title="Wall calendar 2016 years design template" data-src="https://cdn3.vectorstock.com/i/thumbs/72/32/wall-calendar-2016-years-design-template-vector-6747232.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/wall-calendar-2016-years-design-template-vector-6747232" title="Wall calendar 2016 years design template vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/72/32/wall-calendar-2016-years-design-template-vector-6747232.jpg" title="Wall calendar 2016 years design template" alt="Wall calendar 2016 years design template vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-similar-to_8063039" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Tarchyshnik" rel="nofollow">Tarchyshnik</a></strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/66/66/july-18-flat-daily-calendar-icon-date-vector-8066666.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-18-flat-daily-calendar-icon-date-vector-8066666" title="July 18 flat daily calendar icon Date vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/66/66/july-18-flat-daily-calendar-icon-date-vector-8066666.jpg" title="July 18 flat daily calendar icon Date" alt="July 18 flat daily calendar icon Date vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/30/27/july-16-flat-daily-calendar-icon-date-vector-8063027.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-16-flat-daily-calendar-icon-date-vector-8063027" title="July 16 flat daily calendar icon Date vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/30/27/july-16-flat-daily-calendar-icon-date-vector-8063027.jpg" title="July 16 flat daily calendar icon Date" alt="July 16 flat daily calendar icon Date vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/29/79/july-4-flat-daily-calendar-icon-date-and-vector-8062979.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-4-flat-daily-calendar-icon-date-and-vector-8062979" title="July 4 flat daily calendar icon Date and vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/29/79/july-4-flat-daily-calendar-icon-date-and-vector-8062979.jpg" title="July 4 flat daily calendar icon Date and" alt="July 4 flat daily calendar icon Date and vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/30/68/july-22-flat-daily-calendar-icon-date-vector-8063068.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-22-flat-daily-calendar-icon-date-vector-8063068" title="July 22 flat daily calendar icon Date vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/30/68/july-22-flat-daily-calendar-icon-date-vector-8063068.jpg" title="July 22 flat daily calendar icon Date" alt="July 22 flat daily calendar icon Date vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/66/78/july-20-flat-daily-calendar-icon-date-vector-8066678.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-20-flat-daily-calendar-icon-date-vector-8066678" title="July 20 flat daily calendar icon Date vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/66/78/july-20-flat-daily-calendar-icon-date-vector-8066678.jpg" title="July 20 flat daily calendar icon Date" alt="July 20 flat daily calendar icon Date vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/30/43/july-19-flat-daily-calendar-icon-date-vector-8063043.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-19-flat-daily-calendar-icon-date-vector-8063043" title="July 19 flat daily calendar icon Date vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/30/43/july-19-flat-daily-calendar-icon-date-vector-8063043.jpg" title="July 19 flat daily calendar icon Date" alt="July 19 flat daily calendar icon Date vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/67/38/july-27-flat-daily-calendar-icon-date-vector-8066738.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-27-flat-daily-calendar-icon-date-vector-8066738" title="July 27 flat daily calendar icon Date vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/67/38/july-27-flat-daily-calendar-icon-date-vector-8066738.jpg" title="July 27 flat daily calendar icon Date" alt="July 27 flat daily calendar icon Date vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/30/04/july-11-flat-daily-calendar-icon-date-vector-8063004.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-11-flat-daily-calendar-icon-date-vector-8063004" title="July 11 flat daily calendar icon Date vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/30/04/july-11-flat-daily-calendar-icon-date-vector-8063004.jpg" title="July 11 flat daily calendar icon Date" alt="July 11 flat daily calendar icon Date vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/66/96/july-22-flat-daily-calendar-icon-date-vector-8066696.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-22-flat-daily-calendar-icon-date-vector-8066696" title="July 22 flat daily calendar icon Date vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/66/96/july-22-flat-daily-calendar-icon-date-vector-8066696.jpg" title="July 22 flat daily calendar icon Date" alt="July 22 flat daily calendar icon Date vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/29/69/july-1-flat-daily-calendar-icon-date-and-vector-8062969.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-1-flat-daily-calendar-icon-date-and-vector-8062969" title="July 1 flat daily calendar icon Date and vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/29/69/july-1-flat-daily-calendar-icon-date-and-vector-8062969.jpg" title="July 1 flat daily calendar icon Date and" alt="July 1 flat daily calendar icon Date and vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="8063011" data-title="July 12 flat daily calendar icon Date" data-src="https://cdn2.vectorstock.com/i/thumbs/30/11/july-12-flat-daily-calendar-icon-date-vector-8063011.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-12-flat-daily-calendar-icon-date-vector-8063011" title="July 12 flat daily calendar icon Date vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/30/11/july-12-flat-daily-calendar-icon-date-vector-8063011.jpg" title="July 12 flat daily calendar icon Date" alt="July 12 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8063014" data-title="July 13 flat daily calendar icon Date" data-src="https://cdn5.vectorstock.com/i/thumbs/30/14/july-13-flat-daily-calendar-icon-date-vector-8063014.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-13-flat-daily-calendar-icon-date-vector-8063014" title="July 13 flat daily calendar icon Date vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/30/14/july-13-flat-daily-calendar-icon-date-vector-8063014.jpg" title="July 13 flat daily calendar icon Date" alt="July 13 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8062990" data-title="July 7 flat daily calendar icon Date and" data-src="https://cdn1.vectorstock.com/i/thumbs/29/90/july-7-flat-daily-calendar-icon-date-and-vector-8062990.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-7-flat-daily-calendar-icon-date-and-vector-8062990" title="July 7 flat daily calendar icon Date and vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/29/90/july-7-flat-daily-calendar-icon-date-and-vector-8062990.jpg" title="July 7 flat daily calendar icon Date and" alt="July 7 flat daily calendar icon Date and vector image vector image"></noscript></a></li>
+						<li data-id="8063071" data-title="July 23 flat daily calendar icon Date" data-src="https://cdn2.vectorstock.com/i/thumbs/30/71/july-23-flat-daily-calendar-icon-date-vector-8063071.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-23-flat-daily-calendar-icon-date-vector-8063071" title="July 23 flat daily calendar icon Date vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/30/71/july-23-flat-daily-calendar-icon-date-vector-8063071.jpg" title="July 23 flat daily calendar icon Date" alt="July 23 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8066614" data-title="July 12 flat daily calendar icon Date" data-src="https://cdn5.vectorstock.com/i/thumbs/66/14/july-12-flat-daily-calendar-icon-date-vector-8066614.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-12-flat-daily-calendar-icon-date-vector-8066614" title="July 12 flat daily calendar icon Date vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/66/14/july-12-flat-daily-calendar-icon-date-vector-8066614.jpg" title="July 12 flat daily calendar icon Date" alt="July 12 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8066743" data-title="July 28 flat daily calendar icon Date" data-src="https://cdn4.vectorstock.com/i/thumbs/67/43/july-28-flat-daily-calendar-icon-date-vector-8066743.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-28-flat-daily-calendar-icon-date-vector-8066743" title="July 28 flat daily calendar icon Date vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/67/43/july-28-flat-daily-calendar-icon-date-vector-8066743.jpg" title="July 28 flat daily calendar icon Date" alt="July 28 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8062976" data-title="July 3 flat daily calendar icon Date and" data-src="https://cdn2.vectorstock.com/i/thumbs/29/76/july-3-flat-daily-calendar-icon-date-and-vector-8062976.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-3-flat-daily-calendar-icon-date-and-vector-8062976" title="July 3 flat daily calendar icon Date and vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/29/76/july-3-flat-daily-calendar-icon-date-and-vector-8062976.jpg" title="July 3 flat daily calendar icon Date and" alt="July 3 flat daily calendar icon Date and vector image vector image"></noscript></a></li>
+						<li data-id="8066732" data-title="July 26 flat daily calendar icon Date" data-src="https://cdn3.vectorstock.com/i/thumbs/67/32/july-26-flat-daily-calendar-icon-date-vector-8066732.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-26-flat-daily-calendar-icon-date-vector-8066732" title="July 26 flat daily calendar icon Date vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/67/32/july-26-flat-daily-calendar-icon-date-vector-8066732.jpg" title="July 26 flat daily calendar icon Date" alt="July 26 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8062986" data-title="July 6 flat daily calendar icon Date and" data-src="https://cdn2.vectorstock.com/i/thumbs/29/86/july-6-flat-daily-calendar-icon-date-and-vector-8062986.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-6-flat-daily-calendar-icon-date-and-vector-8062986" title="July 6 flat daily calendar icon Date and vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/29/86/july-6-flat-daily-calendar-icon-date-and-vector-8062986.jpg" title="July 6 flat daily calendar icon Date and" alt="July 6 flat daily calendar icon Date and vector image vector image"></noscript></a></li>
+						<li data-id="8066767" data-title="July 30 flat daily calendar icon Date" data-src="https://cdn3.vectorstock.com/i/thumbs/67/67/july-30-flat-daily-calendar-icon-date-vector-8066767.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-30-flat-daily-calendar-icon-date-vector-8066767" title="July 30 flat daily calendar icon Date vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/67/67/july-30-flat-daily-calendar-icon-date-vector-8066767.jpg" title="July 30 flat daily calendar icon Date" alt="July 30 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8066751" data-title="July 29 flat daily calendar icon Date" data-src="https://cdn2.vectorstock.com/i/thumbs/67/51/july-29-flat-daily-calendar-icon-date-vector-8066751.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-29-flat-daily-calendar-icon-date-vector-8066751" title="July 29 flat daily calendar icon Date vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/67/51/july-29-flat-daily-calendar-icon-date-vector-8066751.jpg" title="July 29 flat daily calendar icon Date" alt="July 29 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8066691" data-title="July 21 flat daily calendar icon Date" data-src="https://cdn2.vectorstock.com/i/thumbs/66/91/july-21-flat-daily-calendar-icon-date-vector-8066691.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-21-flat-daily-calendar-icon-date-vector-8066691" title="July 21 flat daily calendar icon Date vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/66/91/july-21-flat-daily-calendar-icon-date-vector-8066691.jpg" title="July 21 flat daily calendar icon Date" alt="July 21 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8063000" data-title="July 10 flat daily calendar icon Date" data-src="https://cdn1.vectorstock.com/i/thumbs/30/00/july-10-flat-daily-calendar-icon-date-vector-8063000.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-10-flat-daily-calendar-icon-date-vector-8063000" title="July 10 flat daily calendar icon Date vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/30/00/july-10-flat-daily-calendar-icon-date-vector-8063000.jpg" title="July 10 flat daily calendar icon Date" alt="July 10 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8063055" data-title="July 21 flat daily calendar icon Date" data-src="https://cdn1.vectorstock.com/i/thumbs/30/55/july-21-flat-daily-calendar-icon-date-vector-8063055.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-21-flat-daily-calendar-icon-date-vector-8063055" title="July 21 flat daily calendar icon Date vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/30/55/july-21-flat-daily-calendar-icon-date-vector-8063055.jpg" title="July 21 flat daily calendar icon Date" alt="July 21 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8063097" data-title="July 31 flat daily calendar icon Date" data-src="https://cdn3.vectorstock.com/i/thumbs/30/97/july-31-flat-daily-calendar-icon-date-vector-8063097.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-31-flat-daily-calendar-icon-date-vector-8063097" title="July 31 flat daily calendar icon Date vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/30/97/july-31-flat-daily-calendar-icon-date-vector-8063097.jpg" title="July 31 flat daily calendar icon Date" alt="July 31 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8063026" data-title="July 15 flat daily calendar icon Date" data-src="https://cdn2.vectorstock.com/i/thumbs/30/26/july-15-flat-daily-calendar-icon-date-vector-8063026.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-15-flat-daily-calendar-icon-date-vector-8063026" title="July 15 flat daily calendar icon Date vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/30/26/july-15-flat-daily-calendar-icon-date-vector-8063026.jpg" title="July 15 flat daily calendar icon Date" alt="July 15 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8063075" data-title="July 24 flat daily calendar icon Date" data-src="https://cdn1.vectorstock.com/i/thumbs/30/75/july-24-flat-daily-calendar-icon-date-vector-8063075.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-24-flat-daily-calendar-icon-date-vector-8063075" title="July 24 flat daily calendar icon Date vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/30/75/july-24-flat-daily-calendar-icon-date-vector-8063075.jpg" title="July 24 flat daily calendar icon Date" alt="July 24 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8063086" data-title="July 28 flat daily calendar icon Date" data-src="https://cdn2.vectorstock.com/i/thumbs/30/86/july-28-flat-daily-calendar-icon-date-vector-8063086.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-28-flat-daily-calendar-icon-date-vector-8063086" title="July 28 flat daily calendar icon Date vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/30/86/july-28-flat-daily-calendar-icon-date-vector-8063086.jpg" title="July 28 flat daily calendar icon Date" alt="July 28 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8063088" data-title="July 29 flat daily calendar icon Date" data-src="https://cdn4.vectorstock.com/i/thumbs/30/88/july-29-flat-daily-calendar-icon-date-vector-8063088.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-29-flat-daily-calendar-icon-date-vector-8063088" title="July 29 flat daily calendar icon Date vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/30/88/july-29-flat-daily-calendar-icon-date-vector-8063088.jpg" title="July 29 flat daily calendar icon Date" alt="July 29 flat daily calendar icon Date vector image vector image"></noscript></a></li>
+						<li data-id="8066531" data-title="July 3 flat daily calendar icon Date and" data-src="https://cdn2.vectorstock.com/i/thumbs/65/31/july-3-flat-daily-calendar-icon-date-and-vector-8066531.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/july-3-flat-daily-calendar-icon-date-and-vector-8066531" title="July 3 flat daily calendar icon Date and vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/65/31/july-3-flat-daily-calendar-icon-date-and-vector-8066531.jpg" title="July 3 flat daily calendar icon Date and" alt="July 3 flat daily calendar icon Date and vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Tarchyshnik" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/july-vectors">July</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/calendar-vectors">Calendar</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/18-vectors">18</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/daily-vectors">Daily</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/flat-vectors">Flat</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/date-vectors">Date</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/symbol-vectors">Symbol</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/sign-vectors">Sign</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/day-vectors">Day</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/appointment-vectors">Appointment</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/time-vectors">Time</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/business-vectors">Business</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/element-vectors">Element</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/reminder-vectors">Reminder</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/event-vectors">Event</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/month-vectors">Month</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/deadline-vectors">Deadline</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/organizer-vectors">Organizer</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/app-vectors">App</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/ui-vectors">Ui</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/schedule-vectors">Schedule</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/design-vectors">Design</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/week-vectors">Week</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/shadow-vectors">Shadow</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/plan-vectors">Plan</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/meeting-vectors">Meeting</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/web-vectors">Web</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/office-vectors">Office</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/interface-vectors">Interface</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/" title="Home">Home</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.vectorstock.com/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="https://www.vectorstock.com/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="https://www.vectorstock.com/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+					<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="https://www.vectorstock.com/signup" title="Join Now">Join Now</a></li>
+						<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="https://www.vectorstock.com/royalty-free-vector/july-18-flat-daily-calendar-icon-date-vector-8063039?signup=1&amp;contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="https://www.vectorstock.com/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="http://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="http://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				© 2020. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+	</div></footer>
+
+
+	<script src="./july2_files/f.txt"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":35,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+
+</body></html>
