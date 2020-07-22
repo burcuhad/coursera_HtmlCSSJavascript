@@ -313,12 +313,9 @@ function buildMenuItemsViewHtml(categoryMenuItems,
   finalHtml += "</section>";
   return finalHtml;
 }
-
-
 // Appends price with '$' if price exists
 function insertItemPrice(html,
-                         pricePropName,
-                         priceValue) {
+                         pricePropName, priceValue) {
   // If not specified, replace with empty string
   if (!priceValue) {
     return insertProperty(html, pricePropName, "");;
